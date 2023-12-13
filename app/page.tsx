@@ -1,8 +1,11 @@
-'use client'
-export default function Home() {
+import React from 'react'
+
+const Home = () => {
   return (
-    <main className="">
-      Home
-    </main>
+    <div>
+      
+    </div>
   )
 }
+
+export default Home
