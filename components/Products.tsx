@@ -10,7 +10,7 @@ const Products = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await axios.get('https://fakestoreapi.com/products');
+        const response = await axios.get('https://fakestoreapi.com/products/1');
         setProducts(response.data);
       } catch (error) {
         console.error('Error fetching products:', error);
@@ -21,9 +21,8 @@ const Products = () => {
   }, []);
 
   return (
-    <div>
-      <h1>Products Page</h1>
-      <div className='flex flex-wrap justify-'>
+    <div className='mx-[12%]'>
+      <div className='flex flex-wrap justify-center'>
         {products.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}

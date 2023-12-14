@@ -3,7 +3,7 @@ import Products from '@/components/Products'
 
 const Home = () => {
   return (
-    <div className='bg-white'>
+    <div className=''>
       <Products/>
     </div>
   )
