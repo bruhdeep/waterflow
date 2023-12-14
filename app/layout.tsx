@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className='bg-gradient-to-r from-gray-700 via-gray-900 to-black'>
         <Navbar />
-        <main>
+        <main className='pt-10 pb-32'>
           {children}
         </main>
         <Footer />
