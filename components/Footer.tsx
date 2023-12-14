@@ -3,7 +3,7 @@ import { FaDiscord, FaFacebook, FaGithub, FaInstagram, FaLinkedinIn, FaSteam, } 
 
 const Footer = () => {
   return (
-    <div className='bg-[#82dfc1] text-[#4C5760] text-sm text-center pt-[30px] pb-[0px] mt-60'>
+    <div className='bg-[#82dfc1] text-[#4C5760] text-sm text-center pt-[30px] pb-[0px]'>
       <h3 className='text-4xl relative font-bold font-sans p-0 mb-4'>WYSI</h3>
       <p className='text-sm italic p-0 mb-9'>I like playing osu, league and overwatch. </p>
       <div className=" text-lg flex justify-center leading-none pt-2 pb-0 mb-9 text-center">
