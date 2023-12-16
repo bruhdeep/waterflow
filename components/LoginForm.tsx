@@ -10,8 +10,9 @@ const LoginForm = () => {
     const [password, setPassword] = useState('');
     const [isLogged, setIsLogged] = useState(false);
 
-    const handleLogin = () => {
+    const handleLogin = (e: { preventDefault: () => void; }) => {
         if(username === 'admin' && password === 'admin'){
+            e.preventDefault()
             router.push('/');
         }else{
             alert('Invalid credentials');
