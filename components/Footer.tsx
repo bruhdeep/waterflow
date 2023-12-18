@@ -4,8 +4,8 @@ import { FaDiscord, FaGithub, FaInstagram, FaLinkedinIn, FaSteam, } from "react-
 const Footer = () => {
   return (
     <div className='bg-[#82dfc1] text-[#4C5760] text-sm text-center pt-[30px] pb-[0px]'>
-      <h3 className='text-4xl relative font-bold font-sans p-0 mb-4'>WYSI</h3>
-      <p className='text-sm italic p-0 mb-9'>I like playing osu, league and overwatch. </p>
+      <h3 className='text-4xl relative font-bold font-sans p-0 mb-4'>Waterflow</h3>
+      <p className='text-sm italic p-0 mb-9'>Assessment for Waterflow Technology </p>
       <div className=" text-lg flex justify-center leading-none pt-2 pb-0 mb-9 text-center">
         <a href="https://github.com/bruhdeep" className='mr-2 w-9 h-9 rounded-[50%] bg-[#4C5760] pl-[9px] pt-[9px] hover:bg-[#000000] duration-500'><FaGithub color="white"/></a>
         <a href="https://discordid.netlify.app/?id=413679054777090049" className='mr-2 w-9 h-9 rounded-[50%] bg-[#4C5760] pl-[9px] pt-[9px] hover:bg-[#000000] duration-500'><FaDiscord color="white"/></a>

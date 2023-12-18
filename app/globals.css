@@ -74,3 +74,15 @@
     @apply bg-background text-foreground;
   }
 }
+
+.page-entering {
+  opacity: 0;
+}
+
+.page-exiting {
+  opacity: 0;
+}
+
+.page-entered {
+  opacity: 1;
+}

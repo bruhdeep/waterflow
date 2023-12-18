@@ -21,7 +21,7 @@ const Products = () => {
   }, []);
 
   return (
-    <div className='mx-[12%]'>
+    <div className='mx-[12%]'>{/*Main margin*/}
       <div className='flex flex-wrap justify-center'>
         {products.map((product) => (
           <ProductCard key={product.id} product={product} />
